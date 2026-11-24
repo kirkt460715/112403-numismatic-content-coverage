@@ -1,0 +1,2937 @@
+{
+  "schema_version": 1,
+  "tool": "coin-culture-coverage-tool",
+  "scope": {
+    "course_version": "C2",
+    "as_of": "2026-11-24",
+    "audience_age": 12
+  },
+  "available_versions": [
+    "C1",
+    "C2"
+  ],
+  "summary": {
+    "course_version": "C2",
+    "segment_count": 2,
+    "total_duration_min": 15,
+    "required_topic_count": 4,
+    "required_topic_rates": {
+      "scheduled": 0.5,
+      "explanatory_depth": 0.25,
+      "evidence_sufficient": 0.25,
+      "complete_coverage": 0.0
+    },
+    "coverage_class_counts": {
+      "evidence_limited": 1,
+      "explanation_depth_gap": 1,
+      "gap": 2
+    },
+    "gap_topics": [
+      "T2",
+      "T3"
+    ],
+    "evidence_gap_topics": [
+      "T2",
+      "T3"
+    ],
+    "provisional_topics": [
+      "T4"
+    ],
+    "depth_gap_topics": [
+      "T1"
+    ],
+    "low_understanding_topics": [
+      "T4"
+    ],
+    "age_restricted_used_source_ids": [
+      "A2"
+    ],
+    "age_unknown_source_ids": [],
+    "orphan_feedback_count": 0,
+    "out_of_version_feedback_count": 3
+  },
+  "report": {
+    "scope": {
+      "course_version": "C2",
+      "as_of": "2026-11-24",
+      "audience_age": 12
+    },
+    "summary": {
+      "course_version": "C2",
+      "segment_count": 2,
+      "total_duration_min": 15,
+      "required_topic_count": 4,
+      "required_topic_rates": {
+        "scheduled": 0.5,
+        "explanatory_depth": 0.25,
+        "evidence_sufficient": 0.25,
+        "complete_coverage": 0.0
+      },
+      "coverage_class_counts": {
+        "evidence_limited": 1,
+        "explanation_depth_gap": 1,
+        "gap": 2
+      },
+      "gap_topics": [
+        "T2",
+        "T3"
+      ],
+      "evidence_gap_topics": [
+        "T2",
+        "T3"
+      ],
+      "provisional_topics": [
+        "T4"
+      ],
+      "depth_gap_topics": [
+        "T1"
+      ],
+      "low_understanding_topics": [
+        "T4"
+      ],
+      "age_restricted_used_source_ids": [
+        "A2"
+      ],
+      "age_unknown_source_ids": [],
+      "orphan_feedback_count": 0,
+      "out_of_version_feedback_count": 3
+    },
+    "segments": [
+      {
+        "segment_id": "G04",
+        "course_version": "C2",
+        "position": 1,
+        "duration_min": 6,
+        "title": "货币与信用",
+        "era": {
+          "era": "先秦",
+          "order": 1,
+          "matched_keywords": [
+            "先秦"
+          ]
+        },
+        "topic_links": [
+          {
+            "topic_id": "T1",
+            "label": "货币形制",
+            "segment_id": "G04",
+            "relation": "context",
+            "valid_from": "2026-10-01",
+            "valid_to": "",
+            "relation_classification": {
+              "raw": "context",
+              "class": "contextual",
+              "depth_rank": 1,
+              "explanatory": false
+            },
+            "active_on_as_of": true
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "L4",
+            "source_id": "A1",
+            "claim_topic": "货币形制",
+            "mapped_topic_id": "T1",
+            "claim_alignment": "direct",
+            "course_version": "C2",
+            "source_summary": {
+              "object_token": "COIN01",
+              "review_status_raw": "approved",
+              "trust_tier": "high",
+              "availability_state": "available",
+              "currently_usable": true,
+              "age_status": "fit"
+            }
+          }
+        ],
+        "feedback": [
+          {
+            "session_id": "S2",
+            "segment_id": "G04",
+            "topic_id": "T1",
+            "understood_count": 8,
+            "respondent_count": 11,
+            "understanding_rate": 0.7273,
+            "wilson_95": [
+              0.4343,
+              0.9025
+            ],
+            "low_understanding": false,
+            "valid_counts": true,
+            "evidential_role": "comprehension_only_not_historical_reliability",
+            "session_date": null,
+            "course_version_from_session": null
+          }
+        ]
+      },
+      {
+        "segment_id": "G05",
+        "course_version": "C2",
+        "position": 2,
+        "duration_min": 9,
+        "title": "晋商票号",
+        "era": {
+          "era": "元明清",
+          "order": 6,
+          "matched_keywords": [
+            "明",
+            "清",
+            "票号",
+            "晋商"
+          ]
+        },
+        "topic_links": [
+          {
+            "topic_id": "T4",
+            "label": "票号信用",
+            "segment_id": "G05",
+            "relation": "explains",
+            "valid_from": "2026-10-01",
+            "valid_to": "",
+            "relation_classification": {
+              "raw": "explains",
+              "class": "explanatory",
+              "depth_rank": 3,
+              "explanatory": true
+            },
+            "active_on_as_of": true
+          }
+        ],
+        "references": [
+          {
+            "reference_id": "L5",
+            "source_id": "A2",
+            "claim_topic": "票号信用",
+            "mapped_topic_id": "T4",
+            "claim_alignment": "direct",
+            "course_version": "C2",
+            "source_summary": {
+              "object_token": "COIN02",
+              "review_status_raw": "review",
+              "trust_tier": "provisional",
+              "availability_state": "available",
+              "currently_usable": true,
+              "age_status": "restricted"
+            }
+          }
+        ],
+        "feedback": [
+          {
+            "session_id": "S2",
+            "segment_id": "G05",
+            "topic_id": "T4",
+            "understood_count": 4,
+            "respondent_count": 10,
+            "understanding_rate": 0.4,
+            "wilson_95": [
+              0.1682,
+              0.6873
+            ],
+            "low_understanding": true,
+            "valid_counts": true,
+            "evidential_role": "comprehension_only_not_historical_reliability",
+            "session_date": null,
+            "course_version_from_session": null
+          }
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "topic_id": "T1",
+        "label": "货币形制",
+        "period": "先秦",
+        "required": true,
+        "teaching_status": "introduced_or_illustrated_only",
+        "coverage_class": "explanation_depth_gap",
+        "relation_classes": [
+          "contextual"
+        ],
+        "has_explanatory_relation": false,
+        "active_link_count_on_as_of": 1,
+        "link_count": 1,
+        "segment_count": 1,
+        "segments": [
+          {
+            "segment_id": "G04",
+            "position": 1,
+            "relation": "context",
+            "relation_class": "contextual",
+            "active_on_as_of": true,
+            "valid_from": "2026-10-01",
+            "valid_to": ""
+          }
+        ],
+        "evidence": {
+          "level": "moderate",
+          "sufficient": true,
+          "independent_source_count": 1,
+          "usable_source_count": 1,
+          "high_trust_count": 1,
+          "medium_trust_count": 0,
+          "provisional_count": 0,
+          "source_ids": [
+            "A1"
+          ],
+          "rationale": "至少有一个已审核高可信来源，或两个中等可信独立来源；可支持结论但宜继续补证。"
+        },
+        "references": [
+          {
+            "reference_id": "L4",
+            "segment_id": "G04",
+            "source_id": "A1",
+            "claim_topic": "货币形制",
+            "course_version": "C2",
+            "source": {
+              "source_id": "A1",
+              "object_token": "COIN01",
+              "source_note": "合成馆藏目录摘要",
+              "review_status_raw": "approved",
+              "status_class": "high",
+              "trust_tier": "high",
+              "blocked": false,
+              "availability_state": "available",
+              "available_on_date": true,
+              "currently_usable": true,
+              "age": {
+                "minimum_age": 10,
+                "audience_age": 12,
+                "age_fit": true,
+                "status": "fit"
+              },
+              "profile_note": "合成目录摘要；正式使用前以馆藏完整著录为准"
+            }
+          }
+        ],
+        "feedback": [
+          {
+            "session_id": "S2",
+            "segment_id": "G04",
+            "topic_id": "T1",
+            "understood_count": 8,
+            "respondent_count": 11,
+            "understanding_rate": 0.7273,
+            "wilson_95": [
+              0.4343,
+              0.9025
+            ],
+            "low_understanding": false,
+            "valid_counts": true,
+            "evidential_role": "comprehension_only_not_historical_reliability",
+            "session_date": null,
+            "course_version_from_session": null
+          }
+        ],
+        "feedback_summary": {
+          "response_rows": 1,
+          "respondent_count": 11,
+          "understood_count": 8,
+          "aggregate_understanding_rate": 0.7273,
+          "low_understanding_rows": [],
+          "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+        },
+        "historical_feedback": [],
+        "historical_feedback_summary": {
+          "response_rows": 0,
+          "respondent_count": 0,
+          "understood_count": 0,
+          "aggregate_understanding_rate": null,
+          "low_understanding_rows": [],
+          "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+        },
+        "findings": [
+          "只有介绍、背景、例子或外形/描述性关系，缺少解释货币、信用与地方经济因果联系的段落。"
+        ]
+      },
+      {
+        "topic_id": "T2",
+        "label": "币制统一",
+        "period": "秦汉",
+        "required": true,
+        "teaching_status": "absent",
+        "coverage_class": "gap",
+        "relation_classes": [],
+        "has_explanatory_relation": false,
+        "active_link_count_on_as_of": 0,
+        "link_count": 0,
+        "segment_count": 0,
+        "segments": [],
+        "evidence": {
+          "level": "none",
+          "sufficient": false,
+          "independent_source_count": 0,
+          "usable_source_count": 0,
+          "high_trust_count": 0,
+          "medium_trust_count": 0,
+          "provisional_count": 0,
+          "source_ids": [],
+          "rationale": "没有把 claim_topic 精确对应到该主题的引用。"
+        },
+        "references": [],
+        "feedback": [],
+        "feedback_summary": {
+          "response_rows": 0,
+          "respondent_count": 0,
+          "understood_count": 0,
+          "aggregate_understanding_rate": null,
+          "low_understanding_rows": [],
+          "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+        },
+        "historical_feedback": [],
+        "historical_feedback_summary": {
+          "response_rows": 0,
+          "respondent_count": 0,
+          "understood_count": 0,
+          "aggregate_understanding_rate": null,
+          "low_understanding_rows": [],
+          "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+        },
+        "findings": [
+          "没有课程段落标注该主题；段落数量不能替代这项缺口判断。",
+          "缺少精确映射到该主题的来源引用；馆藏叙述可能未建立证据链。"
+        ]
+      },
+      {
+        "topic_id": "T3",
+        "label": "地方金融",
+        "period": "晋地",
+        "required": true,
+        "teaching_status": "absent",
+        "coverage_class": "gap",
+        "relation_classes": [],
+        "has_explanatory_relation": false,
+        "active_link_count_on_as_of": 0,
+        "link_count": 0,
+        "segment_count": 0,
+        "segments": [],
+        "evidence": {
+          "level": "none",
+          "sufficient": false,
+          "independent_source_count": 0,
+          "usable_source_count": 0,
+          "high_trust_count": 0,
+          "medium_trust_count": 0,
+          "provisional_count": 0,
+          "source_ids": [],
+          "rationale": "没有把 claim_topic 精确对应到该主题的引用。"
+        },
+        "references": [],
+        "feedback": [],
+        "feedback_summary": {
+          "response_rows": 0,
+          "respondent_count": 0,
+          "understood_count": 0,
+          "aggregate_understanding_rate": null,
+          "low_understanding_rows": [],
+          "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+        },
+        "historical_feedback": [],
+        "historical_feedback_summary": {
+          "response_rows": 0,
+          "respondent_count": 0,
+          "understood_count": 0,
+          "aggregate_understanding_rate": null,
+          "low_understanding_rows": [],
+          "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+        },
+        "findings": [
+          "没有课程段落标注该主题；段落数量不能替代这项缺口判断。",
+          "缺少精确映射到该主题的来源引用；馆藏叙述可能未建立证据链。"
+        ]
+      },
+      {
+        "topic_id": "T4",
+        "label": "票号信用",
+        "period": "明清",
+        "required": true,
+        "teaching_status": "explained",
+        "coverage_class": "evidence_limited",
+        "relation_classes": [
+          "explanatory"
+        ],
+        "has_explanatory_relation": true,
+        "active_link_count_on_as_of": 1,
+        "link_count": 1,
+        "segment_count": 1,
+        "segments": [
+          {
+            "segment_id": "G05",
+            "position": 2,
+            "relation": "explains",
+            "relation_class": "explanatory",
+            "active_on_as_of": true,
+            "valid_from": "2026-10-01",
+            "valid_to": ""
+          }
+        ],
+        "evidence": {
+          "level": "provisional",
+          "sufficient": false,
+          "independent_source_count": 1,
+          "usable_source_count": 1,
+          "high_trust_count": 0,
+          "medium_trust_count": 0,
+          "provisional_count": 1,
+          "source_ids": [
+            "A2"
+          ],
+          "rationale": "现有直接来源仍处于 review/待核状态，只能作暂定证据。"
+        },
+        "references": [
+          {
+            "reference_id": "L5",
+            "segment_id": "G05",
+            "source_id": "A2",
+            "claim_topic": "票号信用",
+            "course_version": "C2",
+            "source": {
+              "source_id": "A2",
+              "object_token": "COIN02",
+              "source_note": "地方史料摘录",
+              "review_status_raw": "review",
+              "status_class": "provisional",
+              "trust_tier": "provisional",
+              "blocked": false,
+              "availability_state": "available",
+              "available_on_date": true,
+              "currently_usable": true,
+              "age": {
+                "minimum_age": 14,
+                "audience_age": 12,
+                "age_fit": false,
+                "status": "restricted"
+              },
+              "profile_note": "地方史料摘录且仍在 review；低龄听众需教师改写和引导"
+            }
+          }
+        ],
+        "feedback": [
+          {
+            "session_id": "S2",
+            "segment_id": "G05",
+            "topic_id": "T4",
+            "understood_count": 4,
+            "respondent_count": 10,
+            "understanding_rate": 0.4,
+            "wilson_95": [
+              0.1682,
+              0.6873
+            ],
+            "low_understanding": true,
+            "valid_counts": true,
+            "evidential_role": "comprehension_only_not_historical_reliability",
+            "session_date": null,
+            "course_version_from_session": null
+          }
+        ],
+        "feedback_summary": {
+          "response_rows": 1,
+          "respondent_count": 10,
+          "understood_count": 4,
+          "aggregate_understanding_rate": 0.4,
+          "low_understanding_rows": [
+            "S2:G05:T4"
+          ],
+          "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+        },
+        "historical_feedback": [],
+        "historical_feedback_summary": {
+          "response_rows": 0,
+          "respondent_count": 0,
+          "understood_count": 0,
+          "aggregate_understanding_rate": null,
+          "low_understanding_rows": [],
+          "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+        },
+        "findings": [
+          "直接来源仍为 review/待核状态，证据只能作暂定支持。",
+          "S2/G05 理解率偏低（40%），但这不是历史可靠性判断。"
+        ]
+      }
+    ],
+    "sequence_findings": [],
+    "curriculum_arc": {
+      "requirements": [
+        {
+          "requirement_id": "pre_qin_cowrie",
+          "label": "先秦贝币与交换起源",
+          "era": "先秦",
+          "required": true,
+          "status": "gap",
+          "explicit_topics": [],
+          "keyword_hits": [],
+          "co_located_keyword_hits": [],
+          "metadata_keyword_hits": [],
+          "advice": "在 T1 之外细化贝币主题，补充贝壳形制、交换与信用萌芽的来源边界。"
+        },
+        {
+          "requirement_id": "pre_qin_knife_spade",
+          "label": "先秦刀布币体系",
+          "era": "先秦",
+          "required": true,
+          "status": "explicit_broad_topic_verify_specifics",
+          "explicit_topics": [
+            {
+              "topic_id": "T1",
+              "coverage_class": "explanation_depth_gap"
+            }
+          ],
+          "keyword_hits": [],
+          "co_located_keyword_hits": [],
+          "metadata_keyword_hits": [],
+          "advice": "把刀币、布币和尖足布标为可区分主题；T1 的泛称“货币形制”不足以判断是否覆盖完整。"
+        },
+        {
+          "requirement_id": "jinyang_spade_local_economy",
+          "label": "晋阳尖足布与晋地地方经济",
+          "era": "先秦/晋地",
+          "required": true,
+          "status": "gap",
+          "explicit_topics": [],
+          "keyword_hits": [],
+          "co_located_keyword_hits": [],
+          "metadata_keyword_hits": [],
+          "advice": "除器物外形和出土地外，需要解释尖足布、区域贸易、城邑与地方经济的关系，并补足直接来源。"
+        },
+        {
+          "requirement_id": "qin_han_unification",
+          "label": "秦汉钱币与币制统一",
+          "era": "秦汉",
+          "required": true,
+          "status": "gap",
+          "explicit_topics": [],
+          "keyword_hits": [],
+          "co_located_keyword_hits": [],
+          "metadata_keyword_hits": [],
+          "advice": "保留制度统一与国家信用如何影响流通的解释链。"
+        },
+        {
+          "requirement_id": "tang_tongbao",
+          "label": "唐代通宝与年号/铢两体系转型",
+          "era": "唐",
+          "required": true,
+          "status": "gap",
+          "explicit_topics": [],
+          "keyword_hits": [],
+          "co_located_keyword_hits": [],
+          "metadata_keyword_hits": [],
+          "advice": "新增唐代通宝主题、段落和馆藏/图像引用；说明“通宝”命名与货币制度变化，避免只讲外形。"
+        },
+        {
+          "requirement_id": "song_jiaozi",
+          "label": "宋代交子与纸币信用",
+          "era": "宋",
+          "required": true,
+          "status": "gap",
+          "explicit_topics": [],
+          "keyword_hits": [],
+          "co_located_keyword_hits": [],
+          "metadata_keyword_hits": [],
+          "advice": "新增宋代交子主题，重点解释票据、准备金、信用扩张与风险，而非仅介绍纸币外观。"
+        },
+        {
+          "requirement_id": "piaohao_credit",
+          "label": "晋商票号与汇兑信用",
+          "era": "明清",
+          "required": true,
+          "status": "explicitly_scheduled_with_text_signal",
+          "explicit_topics": [
+            {
+              "topic_id": "T4",
+              "coverage_class": "evidence_limited"
+            }
+          ],
+          "keyword_hits": [
+            {
+              "segment_id": "G05",
+              "matched_keywords": [
+                "票号",
+                "晋商"
+              ]
+            }
+          ],
+          "co_located_keyword_hits": [
+            {
+              "segment_id": "G05",
+              "matched_keywords": [
+                "票号",
+                "晋商"
+              ]
+            }
+          ],
+          "metadata_keyword_hits": [
+            "票号"
+          ],
+          "advice": "把票号信用、异地汇兑和账簿/密押机制连到清代地方与全国贸易。"
+        },
+        {
+          "requirement_id": "money_credit_local_economy_link",
+          "label": "货币—信用—地方经济联系",
+          "era": "跨时期",
+          "required": true,
+          "status": "explicitly_scheduled_with_text_signal",
+          "explicit_topics": [
+            {
+              "topic_id": "T4",
+              "coverage_class": "evidence_limited"
+            }
+          ],
+          "keyword_hits": [
+            {
+              "segment_id": "G04",
+              "matched_keywords": [
+                "信用"
+              ]
+            },
+            {
+              "segment_id": "G05",
+              "matched_keywords": [
+                "信用"
+              ]
+            }
+          ],
+          "co_located_keyword_hits": [
+            {
+              "segment_id": "G05",
+              "matched_keywords": [
+                "信用"
+              ]
+            }
+          ],
+          "metadata_keyword_hits": [
+            "信用"
+          ],
+          "advice": "使用 explains/analyzes/connects 类关系明确因果链；仅有 introduces/example/context 会被判为深度缺口。"
+        }
+      ],
+      "gap_requirement_ids": [
+        "pre_qin_cowrie",
+        "jinyang_spade_local_economy",
+        "qin_han_unification",
+        "tang_tongbao",
+        "song_jiaozi"
+      ],
+      "tagging_requirement_ids": []
+    },
+    "lineage": [],
+    "source_collection": {
+      "as_of": "2026-11-24",
+      "audience_age": 12,
+      "sources": [
+        {
+          "source_id": "A1",
+          "object_token": "COIN01",
+          "source_note": "合成馆藏目录摘要",
+          "review_status_raw": "approved",
+          "status_class": "high",
+          "trust_tier": "high",
+          "blocked": false,
+          "availability_state": "available",
+          "available_on_date": true,
+          "currently_usable": true,
+          "age": {
+            "minimum_age": 10,
+            "audience_age": 12,
+            "age_fit": true,
+            "status": "fit"
+          },
+          "profile_note": "合成目录摘要；正式使用前以馆藏完整著录为准",
+          "reference_count_in_scope": 1,
+          "used_in_scope": true
+        },
+        {
+          "source_id": "A2",
+          "object_token": "COIN02",
+          "source_note": "地方史料摘录",
+          "review_status_raw": "review",
+          "status_class": "provisional",
+          "trust_tier": "provisional",
+          "blocked": false,
+          "availability_state": "available",
+          "available_on_date": true,
+          "currently_usable": true,
+          "age": {
+            "minimum_age": 14,
+            "audience_age": 12,
+            "age_fit": false,
+            "status": "restricted"
+          },
+          "profile_note": "地方史料摘录且仍在 review；低龄听众需教师改写和引导",
+          "reference_count_in_scope": 1,
+          "used_in_scope": true
+        },
+        {
+          "source_id": "A3",
+          "object_token": "IMG03",
+          "source_note": "授权图像记录",
+          "review_status_raw": "approved",
+          "status_class": "high",
+          "trust_tier": "high",
+          "blocked": false,
+          "availability_state": "available",
+          "available_on_date": true,
+          "currently_usable": true,
+          "age": {
+            "minimum_age": 6,
+            "audience_age": 12,
+            "age_fit": true,
+            "status": "fit"
+          },
+          "profile_note": "授权图像；使用时遵守 object_token 对应的授权范围",
+          "reference_count_in_scope": 0,
+          "used_in_scope": false
+        }
+      ],
+      "unused_available_source_ids": [
+        "A3"
+      ],
+      "unmapped_claims": [],
+      "age_unknown_source_ids": [],
+      "collection_actions": [
+        "确认 blocked/availability_window_closed 材料已从当前课程撤下。",
+        "精确复核 unmapped_claims：近似主题不能自动视为来源已支持。",
+        "为 age_unknown_source_ids 补充适合年龄；未知不等于全年龄。"
+      ]
+    },
+    "orphan_feedback": [],
+    "out_of_version_feedback": [
+      {
+        "session_id": "S1",
+        "segment_id": "G01",
+        "topic_id": "T1",
+        "understood_count": 7,
+        "respondent_count": 10,
+        "understanding_rate": 0.7,
+        "wilson_95": [
+          0.3968,
+          0.8922
+        ],
+        "low_understanding": false,
+        "valid_counts": true,
+        "evidential_role": "comprehension_only_not_historical_reliability",
+        "session_date": null,
+        "course_version_from_session": null,
+        "attribution_policy": "retain_original_version_segment_id"
+      },
+      {
+        "session_id": "S1",
+        "segment_id": "G02",
+        "topic_id": "T2",
+        "understood_count": 5,
+        "respondent_count": 9,
+        "understanding_rate": 0.5556,
+        "wilson_95": [
+          0.2666,
+          0.8112
+        ],
+        "low_understanding": true,
+        "valid_counts": true,
+        "evidential_role": "comprehension_only_not_historical_reliability",
+        "session_date": null,
+        "course_version_from_session": null,
+        "attribution_policy": "retain_original_version_segment_id"
+      },
+      {
+        "session_id": "S1",
+        "segment_id": "G03",
+        "topic_id": "T3",
+        "understood_count": 6,
+        "respondent_count": 8,
+        "understanding_rate": 0.75,
+        "wilson_95": [
+          0.4093,
+          0.9285
+        ],
+        "low_understanding": false,
+        "valid_counts": true,
+        "evidential_role": "comprehension_only_not_historical_reliability",
+        "session_date": null,
+        "course_version_from_session": null,
+        "attribution_policy": "retain_original_version_segment_id"
+      }
+    ],
+    "method_notes": [
+      "覆盖由必需主题、讲述关系深度和可用独立证据决定，不使用段落数量作为充分性标准。",
+      "反馈只表示理解度/参与度，不证明来源或历史解释可靠。",
+      "旧反馈按稳定 segment_id 保留；拆段/合段后不自动改挂到新段落。",
+      "claim_topic 必须精确对应 topics.label 或 topic_id 才计为直接证据；近似说法进入来源范围复核。"
+    ]
+  },
+  "version_reports": {
+    "C1": {
+      "scope": {
+        "course_version": "C1",
+        "as_of": "2026-11-24",
+        "audience_age": 12
+      },
+      "summary": {
+        "course_version": "C1",
+        "segment_count": 3,
+        "total_duration_min": 25,
+        "required_topic_count": 4,
+        "required_topic_rates": {
+          "scheduled": 0.75,
+          "explanatory_depth": 0.25,
+          "evidence_sufficient": 0.5,
+          "complete_coverage": 0.25
+        },
+        "coverage_class_counts": {
+          "covered": 1,
+          "evidence_gap": 1,
+          "explanation_depth_gap": 1,
+          "gap": 1
+        },
+        "gap_topics": [
+          "T4"
+        ],
+        "evidence_gap_topics": [
+          "T3",
+          "T4"
+        ],
+        "provisional_topics": [],
+        "depth_gap_topics": [
+          "T1",
+          "T3"
+        ],
+        "low_understanding_topics": [
+          "T2"
+        ],
+        "age_restricted_used_source_ids": [
+          "A2"
+        ],
+        "age_unknown_source_ids": [],
+        "orphan_feedback_count": 0,
+        "out_of_version_feedback_count": 2
+      },
+      "segments": [
+        {
+          "segment_id": "G01",
+          "course_version": "C1",
+          "position": 1,
+          "duration_min": 8,
+          "title": "先秦货币与交换",
+          "era": {
+            "era": "先秦",
+            "order": 1,
+            "matched_keywords": [
+              "先秦",
+              "交换"
+            ]
+          },
+          "topic_links": [
+            {
+              "topic_id": "T1",
+              "label": "货币形制",
+              "segment_id": "G01",
+              "relation": "introduces",
+              "valid_from": "2026-08-01",
+              "valid_to": "",
+              "relation_classification": {
+                "raw": "introduces",
+                "class": "introductory",
+                "depth_rank": 1,
+                "explanatory": false
+              },
+              "active_on_as_of": true
+            }
+          ],
+          "references": [
+            {
+              "reference_id": "L1",
+              "source_id": "A1",
+              "claim_topic": "货币形制",
+              "mapped_topic_id": "T1",
+              "claim_alignment": "direct",
+              "course_version": "C1",
+              "source_summary": {
+                "object_token": "COIN01",
+                "review_status_raw": "approved",
+                "trust_tier": "high",
+                "availability_state": "available",
+                "currently_usable": true,
+                "age_status": "fit"
+              }
+            }
+          ],
+          "feedback": [
+            {
+              "session_id": "S1",
+              "segment_id": "G01",
+              "topic_id": "T1",
+              "understood_count": 7,
+              "respondent_count": 10,
+              "understanding_rate": 0.7,
+              "wilson_95": [
+                0.3968,
+                0.8922
+              ],
+              "low_understanding": false,
+              "valid_counts": true,
+              "evidential_role": "comprehension_only_not_historical_reliability",
+              "session_date": null,
+              "course_version_from_session": null
+            }
+          ]
+        },
+        {
+          "segment_id": "G02",
+          "course_version": "C1",
+          "position": 2,
+          "duration_min": 7,
+          "title": "秦汉币制",
+          "era": {
+            "era": "秦汉",
+            "order": 2,
+            "matched_keywords": [
+              "秦汉",
+              "秦",
+              "汉",
+              "币制统一"
+            ]
+          },
+          "topic_links": [
+            {
+              "topic_id": "T2",
+              "label": "币制统一",
+              "segment_id": "G02",
+              "relation": "explains",
+              "valid_from": "2026-08-01",
+              "valid_to": "",
+              "relation_classification": {
+                "raw": "explains",
+                "class": "explanatory",
+                "depth_rank": 3,
+                "explanatory": true
+              },
+              "active_on_as_of": true
+            }
+          ],
+          "references": [
+            {
+              "reference_id": "L2",
+              "source_id": "A1",
+              "claim_topic": "币制统一",
+              "mapped_topic_id": "T2",
+              "claim_alignment": "direct",
+              "course_version": "C1",
+              "source_summary": {
+                "object_token": "COIN01",
+                "review_status_raw": "approved",
+                "trust_tier": "high",
+                "availability_state": "available",
+                "currently_usable": true,
+                "age_status": "fit"
+              }
+            }
+          ],
+          "feedback": [
+            {
+              "session_id": "S1",
+              "segment_id": "G02",
+              "topic_id": "T2",
+              "understood_count": 5,
+              "respondent_count": 9,
+              "understanding_rate": 0.5556,
+              "wilson_95": [
+                0.2666,
+                0.8112
+              ],
+              "low_understanding": true,
+              "valid_counts": true,
+              "evidential_role": "comprehension_only_not_historical_reliability",
+              "session_date": null,
+              "course_version_from_session": null
+            }
+          ]
+        },
+        {
+          "segment_id": "G03",
+          "course_version": "C1",
+          "position": 3,
+          "duration_min": 10,
+          "title": "晋阳尖足布",
+          "era": {
+            "era": "先秦",
+            "order": 1,
+            "matched_keywords": [
+              "尖足布",
+              "晋阳"
+            ]
+          },
+          "topic_links": [
+            {
+              "topic_id": "T3",
+              "label": "地方金融",
+              "segment_id": "G03",
+              "relation": "example",
+              "valid_from": "2026-08-01",
+              "valid_to": "2026-10-01",
+              "relation_classification": {
+                "raw": "example",
+                "class": "illustrative",
+                "depth_rank": 1,
+                "explanatory": false
+              },
+              "active_on_as_of": false
+            }
+          ],
+          "references": [
+            {
+              "reference_id": "L3",
+              "source_id": "A2",
+              "claim_topic": "地方货币",
+              "mapped_topic_id": null,
+              "claim_alignment": "unmapped_claim_requires_scope_review",
+              "course_version": "C1",
+              "source_summary": {
+                "object_token": "COIN02",
+                "review_status_raw": "review",
+                "trust_tier": "provisional",
+                "availability_state": "available",
+                "currently_usable": true,
+                "age_status": "restricted"
+              }
+            }
+          ],
+          "feedback": [
+            {
+              "session_id": "S1",
+              "segment_id": "G03",
+              "topic_id": "T3",
+              "understood_count": 6,
+              "respondent_count": 8,
+              "understanding_rate": 0.75,
+              "wilson_95": [
+                0.4093,
+                0.9285
+              ],
+              "low_understanding": false,
+              "valid_counts": true,
+              "evidential_role": "comprehension_only_not_historical_reliability",
+              "session_date": null,
+              "course_version_from_session": null
+            }
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "T1",
+          "label": "货币形制",
+          "period": "先秦",
+          "required": true,
+          "teaching_status": "introduced_or_illustrated_only",
+          "coverage_class": "explanation_depth_gap",
+          "relation_classes": [
+            "introductory"
+          ],
+          "has_explanatory_relation": false,
+          "active_link_count_on_as_of": 1,
+          "link_count": 1,
+          "segment_count": 1,
+          "segments": [
+            {
+              "segment_id": "G01",
+              "position": 1,
+              "relation": "introduces",
+              "relation_class": "introductory",
+              "active_on_as_of": true,
+              "valid_from": "2026-08-01",
+              "valid_to": ""
+            }
+          ],
+          "evidence": {
+            "level": "moderate",
+            "sufficient": true,
+            "independent_source_count": 1,
+            "usable_source_count": 1,
+            "high_trust_count": 1,
+            "medium_trust_count": 0,
+            "provisional_count": 0,
+            "source_ids": [
+              "A1"
+            ],
+            "rationale": "至少有一个已审核高可信来源，或两个中等可信独立来源；可支持结论但宜继续补证。"
+          },
+          "references": [
+            {
+              "reference_id": "L1",
+              "segment_id": "G01",
+              "source_id": "A1",
+              "claim_topic": "货币形制",
+              "course_version": "C1",
+              "source": {
+                "source_id": "A1",
+                "object_token": "COIN01",
+                "source_note": "合成馆藏目录摘要",
+                "review_status_raw": "approved",
+                "status_class": "high",
+                "trust_tier": "high",
+                "blocked": false,
+                "availability_state": "available",
+                "available_on_date": true,
+                "currently_usable": true,
+                "age": {
+                  "minimum_age": 10,
+                  "audience_age": 12,
+                  "age_fit": true,
+                  "status": "fit"
+                },
+                "profile_note": "合成目录摘要；正式使用前以馆藏完整著录为准"
+              }
+            }
+          ],
+          "feedback": [
+            {
+              "session_id": "S1",
+              "segment_id": "G01",
+              "topic_id": "T1",
+              "understood_count": 7,
+              "respondent_count": 10,
+              "understanding_rate": 0.7,
+              "wilson_95": [
+                0.3968,
+                0.8922
+              ],
+              "low_understanding": false,
+              "valid_counts": true,
+              "evidential_role": "comprehension_only_not_historical_reliability",
+              "session_date": null,
+              "course_version_from_session": null
+            }
+          ],
+          "feedback_summary": {
+            "response_rows": 1,
+            "respondent_count": 10,
+            "understood_count": 7,
+            "aggregate_understanding_rate": 0.7,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "historical_feedback": [],
+          "historical_feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "findings": [
+            "只有介绍、背景、例子或外形/描述性关系，缺少解释货币、信用与地方经济因果联系的段落。"
+          ]
+        },
+        {
+          "topic_id": "T2",
+          "label": "币制统一",
+          "period": "秦汉",
+          "required": true,
+          "teaching_status": "explained",
+          "coverage_class": "covered",
+          "relation_classes": [
+            "explanatory"
+          ],
+          "has_explanatory_relation": true,
+          "active_link_count_on_as_of": 1,
+          "link_count": 1,
+          "segment_count": 1,
+          "segments": [
+            {
+              "segment_id": "G02",
+              "position": 2,
+              "relation": "explains",
+              "relation_class": "explanatory",
+              "active_on_as_of": true,
+              "valid_from": "2026-08-01",
+              "valid_to": ""
+            }
+          ],
+          "evidence": {
+            "level": "moderate",
+            "sufficient": true,
+            "independent_source_count": 1,
+            "usable_source_count": 1,
+            "high_trust_count": 1,
+            "medium_trust_count": 0,
+            "provisional_count": 0,
+            "source_ids": [
+              "A1"
+            ],
+            "rationale": "至少有一个已审核高可信来源，或两个中等可信独立来源；可支持结论但宜继续补证。"
+          },
+          "references": [
+            {
+              "reference_id": "L2",
+              "segment_id": "G02",
+              "source_id": "A1",
+              "claim_topic": "币制统一",
+              "course_version": "C1",
+              "source": {
+                "source_id": "A1",
+                "object_token": "COIN01",
+                "source_note": "合成馆藏目录摘要",
+                "review_status_raw": "approved",
+                "status_class": "high",
+                "trust_tier": "high",
+                "blocked": false,
+                "availability_state": "available",
+                "available_on_date": true,
+                "currently_usable": true,
+                "age": {
+                  "minimum_age": 10,
+                  "audience_age": 12,
+                  "age_fit": true,
+                  "status": "fit"
+                },
+                "profile_note": "合成目录摘要；正式使用前以馆藏完整著录为准"
+              }
+            }
+          ],
+          "feedback": [
+            {
+              "session_id": "S1",
+              "segment_id": "G02",
+              "topic_id": "T2",
+              "understood_count": 5,
+              "respondent_count": 9,
+              "understanding_rate": 0.5556,
+              "wilson_95": [
+                0.2666,
+                0.8112
+              ],
+              "low_understanding": true,
+              "valid_counts": true,
+              "evidential_role": "comprehension_only_not_historical_reliability",
+              "session_date": null,
+              "course_version_from_session": null
+            }
+          ],
+          "feedback_summary": {
+            "response_rows": 1,
+            "respondent_count": 9,
+            "understood_count": 5,
+            "aggregate_understanding_rate": 0.5556,
+            "low_understanding_rows": [
+              "S1:G02:T2"
+            ],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "historical_feedback": [],
+          "historical_feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "findings": [
+            "S1/G02 理解率偏低（56%），但这不是历史可靠性判断。"
+          ]
+        },
+        {
+          "topic_id": "T3",
+          "label": "地方金融",
+          "period": "晋地",
+          "required": true,
+          "teaching_status": "introduced_or_illustrated_only",
+          "coverage_class": "evidence_gap",
+          "relation_classes": [
+            "illustrative"
+          ],
+          "has_explanatory_relation": false,
+          "active_link_count_on_as_of": 0,
+          "link_count": 1,
+          "segment_count": 1,
+          "segments": [
+            {
+              "segment_id": "G03",
+              "position": 3,
+              "relation": "example",
+              "relation_class": "illustrative",
+              "active_on_as_of": false,
+              "valid_from": "2026-08-01",
+              "valid_to": "2026-10-01"
+            }
+          ],
+          "evidence": {
+            "level": "none",
+            "sufficient": false,
+            "independent_source_count": 0,
+            "usable_source_count": 0,
+            "high_trust_count": 0,
+            "medium_trust_count": 0,
+            "provisional_count": 0,
+            "source_ids": [],
+            "rationale": "没有把 claim_topic 精确对应到该主题的引用。"
+          },
+          "references": [],
+          "feedback": [
+            {
+              "session_id": "S1",
+              "segment_id": "G03",
+              "topic_id": "T3",
+              "understood_count": 6,
+              "respondent_count": 8,
+              "understanding_rate": 0.75,
+              "wilson_95": [
+                0.4093,
+                0.9285
+              ],
+              "low_understanding": false,
+              "valid_counts": true,
+              "evidential_role": "comprehension_only_not_historical_reliability",
+              "session_date": null,
+              "course_version_from_session": null
+            }
+          ],
+          "feedback_summary": {
+            "response_rows": 1,
+            "respondent_count": 8,
+            "understood_count": 6,
+            "aggregate_understanding_rate": 0.75,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "historical_feedback": [],
+          "historical_feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "findings": [
+            "只有介绍、背景、例子或外形/描述性关系，缺少解释货币、信用与地方经济因果联系的段落。",
+            "缺少精确映射到该主题的来源引用；馆藏叙述可能未建立证据链。"
+          ]
+        },
+        {
+          "topic_id": "T4",
+          "label": "票号信用",
+          "period": "明清",
+          "required": true,
+          "teaching_status": "absent",
+          "coverage_class": "gap",
+          "relation_classes": [],
+          "has_explanatory_relation": false,
+          "active_link_count_on_as_of": 0,
+          "link_count": 0,
+          "segment_count": 0,
+          "segments": [],
+          "evidence": {
+            "level": "none",
+            "sufficient": false,
+            "independent_source_count": 0,
+            "usable_source_count": 0,
+            "high_trust_count": 0,
+            "medium_trust_count": 0,
+            "provisional_count": 0,
+            "source_ids": [],
+            "rationale": "没有把 claim_topic 精确对应到该主题的引用。"
+          },
+          "references": [],
+          "feedback": [],
+          "feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "historical_feedback": [],
+          "historical_feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "findings": [
+            "没有课程段落标注该主题；段落数量不能替代这项缺口判断。",
+            "缺少精确映射到该主题的来源引用；馆藏叙述可能未建立证据链。"
+          ]
+        }
+      ],
+      "sequence_findings": [
+        {
+          "level": "info",
+          "code": "chronology_regression",
+          "message": "G02→G03 出现年代回跳；若作为地方专题或比较回旋，应加过渡说明。",
+          "segment_ids": [
+            "G02",
+            "G03"
+          ],
+          "eras": [
+            "秦汉",
+            "先秦"
+          ]
+        },
+        {
+          "level": "info",
+          "code": "long_shallow_segment",
+          "message": "G01 时长 8 分钟，但主题关系均为介绍/描述/例证/背景；请核查是否把较多时间用于重复器物外形，而没有解释货币、信用或地方经济联系。",
+          "segment_id": "G01",
+          "duration_min": 8
+        },
+        {
+          "level": "info",
+          "code": "long_shallow_segment",
+          "message": "G03 时长 10 分钟，但主题关系均为介绍/描述/例证/背景；请核查是否把较多时间用于重复器物外形，而没有解释货币、信用或地方经济联系。",
+          "segment_id": "G03",
+          "duration_min": 10
+        }
+      ],
+      "curriculum_arc": {
+        "requirements": [
+          {
+            "requirement_id": "pre_qin_cowrie",
+            "label": "先秦贝币与交换起源",
+            "era": "先秦",
+            "required": true,
+            "status": "gap",
+            "explicit_topics": [],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "在 T1 之外细化贝币主题，补充贝壳形制、交换与信用萌芽的来源边界。"
+          },
+          {
+            "requirement_id": "pre_qin_knife_spade",
+            "label": "先秦刀布币体系",
+            "era": "先秦",
+            "required": true,
+            "status": "explicitly_scheduled_with_text_signal",
+            "explicit_topics": [
+              {
+                "topic_id": "T1",
+                "coverage_class": "explanation_depth_gap"
+              },
+              {
+                "topic_id": "T3",
+                "coverage_class": "evidence_gap"
+              }
+            ],
+            "keyword_hits": [
+              {
+                "segment_id": "G03",
+                "matched_keywords": [
+                  "尖足布"
+                ]
+              }
+            ],
+            "co_located_keyword_hits": [
+              {
+                "segment_id": "G03",
+                "matched_keywords": [
+                  "尖足布"
+                ]
+              }
+            ],
+            "metadata_keyword_hits": [],
+            "advice": "把刀币、布币和尖足布标为可区分主题；T1 的泛称“货币形制”不足以判断是否覆盖完整。"
+          },
+          {
+            "requirement_id": "jinyang_spade_local_economy",
+            "label": "晋阳尖足布与晋地地方经济",
+            "era": "先秦/晋地",
+            "required": true,
+            "status": "explicitly_scheduled_with_text_signal",
+            "explicit_topics": [
+              {
+                "topic_id": "T3",
+                "coverage_class": "evidence_gap"
+              }
+            ],
+            "keyword_hits": [
+              {
+                "segment_id": "G03",
+                "matched_keywords": [
+                  "晋阳",
+                  "尖足布"
+                ]
+              }
+            ],
+            "co_located_keyword_hits": [
+              {
+                "segment_id": "G03",
+                "matched_keywords": [
+                  "晋阳",
+                  "尖足布"
+                ]
+              }
+            ],
+            "metadata_keyword_hits": [],
+            "advice": "除器物外形和出土地外，需要解释尖足布、区域贸易、城邑与地方经济的关系，并补足直接来源。"
+          },
+          {
+            "requirement_id": "qin_han_unification",
+            "label": "秦汉钱币与币制统一",
+            "era": "秦汉",
+            "required": true,
+            "status": "explicitly_scheduled_with_text_signal",
+            "explicit_topics": [
+              {
+                "topic_id": "T2",
+                "coverage_class": "covered"
+              }
+            ],
+            "keyword_hits": [
+              {
+                "segment_id": "G02",
+                "matched_keywords": [
+                  "秦汉",
+                  "币制统一"
+                ]
+              }
+            ],
+            "co_located_keyword_hits": [
+              {
+                "segment_id": "G02",
+                "matched_keywords": [
+                  "秦汉",
+                  "币制统一"
+                ]
+              }
+            ],
+            "metadata_keyword_hits": [
+              "秦汉",
+              "币制统一"
+            ],
+            "advice": "保留制度统一与国家信用如何影响流通的解释链。"
+          },
+          {
+            "requirement_id": "tang_tongbao",
+            "label": "唐代通宝与年号/铢两体系转型",
+            "era": "唐",
+            "required": true,
+            "status": "gap",
+            "explicit_topics": [],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "新增唐代通宝主题、段落和馆藏/图像引用；说明“通宝”命名与货币制度变化，避免只讲外形。"
+          },
+          {
+            "requirement_id": "song_jiaozi",
+            "label": "宋代交子与纸币信用",
+            "era": "宋",
+            "required": true,
+            "status": "gap",
+            "explicit_topics": [],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "新增宋代交子主题，重点解释票据、准备金、信用扩张与风险，而非仅介绍纸币外观。"
+          },
+          {
+            "requirement_id": "piaohao_credit",
+            "label": "晋商票号与汇兑信用",
+            "era": "明清",
+            "required": true,
+            "status": "gap",
+            "explicit_topics": [],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "把票号信用、异地汇兑和账簿/密押机制连到清代地方与全国贸易。"
+          },
+          {
+            "requirement_id": "money_credit_local_economy_link",
+            "label": "货币—信用—地方经济联系",
+            "era": "跨时期",
+            "required": true,
+            "status": "explicit_broad_topic_verify_specifics",
+            "explicit_topics": [
+              {
+                "topic_id": "T3",
+                "coverage_class": "evidence_gap"
+              }
+            ],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "使用 explains/analyzes/connects 类关系明确因果链；仅有 introduces/example/context 会被判为深度缺口。"
+          }
+        ],
+        "gap_requirement_ids": [
+          "pre_qin_cowrie",
+          "tang_tongbao",
+          "song_jiaozi",
+          "piaohao_credit"
+        ],
+        "tagging_requirement_ids": []
+      },
+      "lineage": [],
+      "source_collection": {
+        "as_of": "2026-11-24",
+        "audience_age": 12,
+        "sources": [
+          {
+            "source_id": "A1",
+            "object_token": "COIN01",
+            "source_note": "合成馆藏目录摘要",
+            "review_status_raw": "approved",
+            "status_class": "high",
+            "trust_tier": "high",
+            "blocked": false,
+            "availability_state": "available",
+            "available_on_date": true,
+            "currently_usable": true,
+            "age": {
+              "minimum_age": 10,
+              "audience_age": 12,
+              "age_fit": true,
+              "status": "fit"
+            },
+            "profile_note": "合成目录摘要；正式使用前以馆藏完整著录为准",
+            "reference_count_in_scope": 2,
+            "used_in_scope": true
+          },
+          {
+            "source_id": "A2",
+            "object_token": "COIN02",
+            "source_note": "地方史料摘录",
+            "review_status_raw": "review",
+            "status_class": "provisional",
+            "trust_tier": "provisional",
+            "blocked": false,
+            "availability_state": "available",
+            "available_on_date": true,
+            "currently_usable": true,
+            "age": {
+              "minimum_age": 14,
+              "audience_age": 12,
+              "age_fit": false,
+              "status": "restricted"
+            },
+            "profile_note": "地方史料摘录且仍在 review；低龄听众需教师改写和引导",
+            "reference_count_in_scope": 1,
+            "used_in_scope": true
+          },
+          {
+            "source_id": "A3",
+            "object_token": "IMG03",
+            "source_note": "授权图像记录",
+            "review_status_raw": "approved",
+            "status_class": "high",
+            "trust_tier": "high",
+            "blocked": false,
+            "availability_state": "available",
+            "available_on_date": true,
+            "currently_usable": true,
+            "age": {
+              "minimum_age": 6,
+              "audience_age": 12,
+              "age_fit": true,
+              "status": "fit"
+            },
+            "profile_note": "授权图像；使用时遵守 object_token 对应的授权范围",
+            "reference_count_in_scope": 0,
+            "used_in_scope": false
+          }
+        ],
+        "unused_available_source_ids": [
+          "A3"
+        ],
+        "unmapped_claims": [
+          {
+            "reference_id": "L3",
+            "segment_id": "G03",
+            "claim_topic": "地方货币"
+          }
+        ],
+        "age_unknown_source_ids": [],
+        "collection_actions": [
+          "确认 blocked/availability_window_closed 材料已从当前课程撤下。",
+          "精确复核 unmapped_claims：近似主题不能自动视为来源已支持。",
+          "为 age_unknown_source_ids 补充适合年龄；未知不等于全年龄。"
+        ]
+      },
+      "orphan_feedback": [],
+      "out_of_version_feedback": [
+        {
+          "session_id": "S2",
+          "segment_id": "G04",
+          "topic_id": "T1",
+          "understood_count": 8,
+          "respondent_count": 11,
+          "understanding_rate": 0.7273,
+          "wilson_95": [
+            0.4343,
+            0.9025
+          ],
+          "low_understanding": false,
+          "valid_counts": true,
+          "evidential_role": "comprehension_only_not_historical_reliability",
+          "session_date": null,
+          "course_version_from_session": null,
+          "attribution_policy": "retain_original_version_segment_id"
+        },
+        {
+          "session_id": "S2",
+          "segment_id": "G05",
+          "topic_id": "T4",
+          "understood_count": 4,
+          "respondent_count": 10,
+          "understanding_rate": 0.4,
+          "wilson_95": [
+            0.1682,
+            0.6873
+          ],
+          "low_understanding": true,
+          "valid_counts": true,
+          "evidential_role": "comprehension_only_not_historical_reliability",
+          "session_date": null,
+          "course_version_from_session": null,
+          "attribution_policy": "retain_original_version_segment_id"
+        }
+      ],
+      "method_notes": [
+        "覆盖由必需主题、讲述关系深度和可用独立证据决定，不使用段落数量作为充分性标准。",
+        "反馈只表示理解度/参与度，不证明来源或历史解释可靠。",
+        "旧反馈按稳定 segment_id 保留；拆段/合段后不自动改挂到新段落。",
+        "claim_topic 必须精确对应 topics.label 或 topic_id 才计为直接证据；近似说法进入来源范围复核。"
+      ]
+    },
+    "C2": {
+      "scope": {
+        "course_version": "C2",
+        "as_of": "2026-11-24",
+        "audience_age": 12
+      },
+      "summary": {
+        "course_version": "C2",
+        "segment_count": 2,
+        "total_duration_min": 15,
+        "required_topic_count": 4,
+        "required_topic_rates": {
+          "scheduled": 0.5,
+          "explanatory_depth": 0.25,
+          "evidence_sufficient": 0.25,
+          "complete_coverage": 0.0
+        },
+        "coverage_class_counts": {
+          "evidence_limited": 1,
+          "explanation_depth_gap": 1,
+          "gap": 2
+        },
+        "gap_topics": [
+          "T2",
+          "T3"
+        ],
+        "evidence_gap_topics": [
+          "T2",
+          "T3"
+        ],
+        "provisional_topics": [
+          "T4"
+        ],
+        "depth_gap_topics": [
+          "T1"
+        ],
+        "low_understanding_topics": [
+          "T4"
+        ],
+        "age_restricted_used_source_ids": [
+          "A2"
+        ],
+        "age_unknown_source_ids": [],
+        "orphan_feedback_count": 0,
+        "out_of_version_feedback_count": 3
+      },
+      "segments": [
+        {
+          "segment_id": "G04",
+          "course_version": "C2",
+          "position": 1,
+          "duration_min": 6,
+          "title": "货币与信用",
+          "era": {
+            "era": "先秦",
+            "order": 1,
+            "matched_keywords": [
+              "先秦"
+            ]
+          },
+          "topic_links": [
+            {
+              "topic_id": "T1",
+              "label": "货币形制",
+              "segment_id": "G04",
+              "relation": "context",
+              "valid_from": "2026-10-01",
+              "valid_to": "",
+              "relation_classification": {
+                "raw": "context",
+                "class": "contextual",
+                "depth_rank": 1,
+                "explanatory": false
+              },
+              "active_on_as_of": true
+            }
+          ],
+          "references": [
+            {
+              "reference_id": "L4",
+              "source_id": "A1",
+              "claim_topic": "货币形制",
+              "mapped_topic_id": "T1",
+              "claim_alignment": "direct",
+              "course_version": "C2",
+              "source_summary": {
+                "object_token": "COIN01",
+                "review_status_raw": "approved",
+                "trust_tier": "high",
+                "availability_state": "available",
+                "currently_usable": true,
+                "age_status": "fit"
+              }
+            }
+          ],
+          "feedback": [
+            {
+              "session_id": "S2",
+              "segment_id": "G04",
+              "topic_id": "T1",
+              "understood_count": 8,
+              "respondent_count": 11,
+              "understanding_rate": 0.7273,
+              "wilson_95": [
+                0.4343,
+                0.9025
+              ],
+              "low_understanding": false,
+              "valid_counts": true,
+              "evidential_role": "comprehension_only_not_historical_reliability",
+              "session_date": null,
+              "course_version_from_session": null
+            }
+          ]
+        },
+        {
+          "segment_id": "G05",
+          "course_version": "C2",
+          "position": 2,
+          "duration_min": 9,
+          "title": "晋商票号",
+          "era": {
+            "era": "元明清",
+            "order": 6,
+            "matched_keywords": [
+              "明",
+              "清",
+              "票号",
+              "晋商"
+            ]
+          },
+          "topic_links": [
+            {
+              "topic_id": "T4",
+              "label": "票号信用",
+              "segment_id": "G05",
+              "relation": "explains",
+              "valid_from": "2026-10-01",
+              "valid_to": "",
+              "relation_classification": {
+                "raw": "explains",
+                "class": "explanatory",
+                "depth_rank": 3,
+                "explanatory": true
+              },
+              "active_on_as_of": true
+            }
+          ],
+          "references": [
+            {
+              "reference_id": "L5",
+              "source_id": "A2",
+              "claim_topic": "票号信用",
+              "mapped_topic_id": "T4",
+              "claim_alignment": "direct",
+              "course_version": "C2",
+              "source_summary": {
+                "object_token": "COIN02",
+                "review_status_raw": "review",
+                "trust_tier": "provisional",
+                "availability_state": "available",
+                "currently_usable": true,
+                "age_status": "restricted"
+              }
+            }
+          ],
+          "feedback": [
+            {
+              "session_id": "S2",
+              "segment_id": "G05",
+              "topic_id": "T4",
+              "understood_count": 4,
+              "respondent_count": 10,
+              "understanding_rate": 0.4,
+              "wilson_95": [
+                0.1682,
+                0.6873
+              ],
+              "low_understanding": true,
+              "valid_counts": true,
+              "evidential_role": "comprehension_only_not_historical_reliability",
+              "session_date": null,
+              "course_version_from_session": null
+            }
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "T1",
+          "label": "货币形制",
+          "period": "先秦",
+          "required": true,
+          "teaching_status": "introduced_or_illustrated_only",
+          "coverage_class": "explanation_depth_gap",
+          "relation_classes": [
+            "contextual"
+          ],
+          "has_explanatory_relation": false,
+          "active_link_count_on_as_of": 1,
+          "link_count": 1,
+          "segment_count": 1,
+          "segments": [
+            {
+              "segment_id": "G04",
+              "position": 1,
+              "relation": "context",
+              "relation_class": "contextual",
+              "active_on_as_of": true,
+              "valid_from": "2026-10-01",
+              "valid_to": ""
+            }
+          ],
+          "evidence": {
+            "level": "moderate",
+            "sufficient": true,
+            "independent_source_count": 1,
+            "usable_source_count": 1,
+            "high_trust_count": 1,
+            "medium_trust_count": 0,
+            "provisional_count": 0,
+            "source_ids": [
+              "A1"
+            ],
+            "rationale": "至少有一个已审核高可信来源，或两个中等可信独立来源；可支持结论但宜继续补证。"
+          },
+          "references": [
+            {
+              "reference_id": "L4",
+              "segment_id": "G04",
+              "source_id": "A1",
+              "claim_topic": "货币形制",
+              "course_version": "C2",
+              "source": {
+                "source_id": "A1",
+                "object_token": "COIN01",
+                "source_note": "合成馆藏目录摘要",
+                "review_status_raw": "approved",
+                "status_class": "high",
+                "trust_tier": "high",
+                "blocked": false,
+                "availability_state": "available",
+                "available_on_date": true,
+                "currently_usable": true,
+                "age": {
+                  "minimum_age": 10,
+                  "audience_age": 12,
+                  "age_fit": true,
+                  "status": "fit"
+                },
+                "profile_note": "合成目录摘要；正式使用前以馆藏完整著录为准"
+              }
+            }
+          ],
+          "feedback": [
+            {
+              "session_id": "S2",
+              "segment_id": "G04",
+              "topic_id": "T1",
+              "understood_count": 8,
+              "respondent_count": 11,
+              "understanding_rate": 0.7273,
+              "wilson_95": [
+                0.4343,
+                0.9025
+              ],
+              "low_understanding": false,
+              "valid_counts": true,
+              "evidential_role": "comprehension_only_not_historical_reliability",
+              "session_date": null,
+              "course_version_from_session": null
+            }
+          ],
+          "feedback_summary": {
+            "response_rows": 1,
+            "respondent_count": 11,
+            "understood_count": 8,
+            "aggregate_understanding_rate": 0.7273,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "historical_feedback": [],
+          "historical_feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "findings": [
+            "只有介绍、背景、例子或外形/描述性关系，缺少解释货币、信用与地方经济因果联系的段落。"
+          ]
+        },
+        {
+          "topic_id": "T2",
+          "label": "币制统一",
+          "period": "秦汉",
+          "required": true,
+          "teaching_status": "absent",
+          "coverage_class": "gap",
+          "relation_classes": [],
+          "has_explanatory_relation": false,
+          "active_link_count_on_as_of": 0,
+          "link_count": 0,
+          "segment_count": 0,
+          "segments": [],
+          "evidence": {
+            "level": "none",
+            "sufficient": false,
+            "independent_source_count": 0,
+            "usable_source_count": 0,
+            "high_trust_count": 0,
+            "medium_trust_count": 0,
+            "provisional_count": 0,
+            "source_ids": [],
+            "rationale": "没有把 claim_topic 精确对应到该主题的引用。"
+          },
+          "references": [],
+          "feedback": [],
+          "feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "historical_feedback": [],
+          "historical_feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "findings": [
+            "没有课程段落标注该主题；段落数量不能替代这项缺口判断。",
+            "缺少精确映射到该主题的来源引用；馆藏叙述可能未建立证据链。"
+          ]
+        },
+        {
+          "topic_id": "T3",
+          "label": "地方金融",
+          "period": "晋地",
+          "required": true,
+          "teaching_status": "absent",
+          "coverage_class": "gap",
+          "relation_classes": [],
+          "has_explanatory_relation": false,
+          "active_link_count_on_as_of": 0,
+          "link_count": 0,
+          "segment_count": 0,
+          "segments": [],
+          "evidence": {
+            "level": "none",
+            "sufficient": false,
+            "independent_source_count": 0,
+            "usable_source_count": 0,
+            "high_trust_count": 0,
+            "medium_trust_count": 0,
+            "provisional_count": 0,
+            "source_ids": [],
+            "rationale": "没有把 claim_topic 精确对应到该主题的引用。"
+          },
+          "references": [],
+          "feedback": [],
+          "feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "historical_feedback": [],
+          "historical_feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "findings": [
+            "没有课程段落标注该主题；段落数量不能替代这项缺口判断。",
+            "缺少精确映射到该主题的来源引用；馆藏叙述可能未建立证据链。"
+          ]
+        },
+        {
+          "topic_id": "T4",
+          "label": "票号信用",
+          "period": "明清",
+          "required": true,
+          "teaching_status": "explained",
+          "coverage_class": "evidence_limited",
+          "relation_classes": [
+            "explanatory"
+          ],
+          "has_explanatory_relation": true,
+          "active_link_count_on_as_of": 1,
+          "link_count": 1,
+          "segment_count": 1,
+          "segments": [
+            {
+              "segment_id": "G05",
+              "position": 2,
+              "relation": "explains",
+              "relation_class": "explanatory",
+              "active_on_as_of": true,
+              "valid_from": "2026-10-01",
+              "valid_to": ""
+            }
+          ],
+          "evidence": {
+            "level": "provisional",
+            "sufficient": false,
+            "independent_source_count": 1,
+            "usable_source_count": 1,
+            "high_trust_count": 0,
+            "medium_trust_count": 0,
+            "provisional_count": 1,
+            "source_ids": [
+              "A2"
+            ],
+            "rationale": "现有直接来源仍处于 review/待核状态，只能作暂定证据。"
+          },
+          "references": [
+            {
+              "reference_id": "L5",
+              "segment_id": "G05",
+              "source_id": "A2",
+              "claim_topic": "票号信用",
+              "course_version": "C2",
+              "source": {
+                "source_id": "A2",
+                "object_token": "COIN02",
+                "source_note": "地方史料摘录",
+                "review_status_raw": "review",
+                "status_class": "provisional",
+                "trust_tier": "provisional",
+                "blocked": false,
+                "availability_state": "available",
+                "available_on_date": true,
+                "currently_usable": true,
+                "age": {
+                  "minimum_age": 14,
+                  "audience_age": 12,
+                  "age_fit": false,
+                  "status": "restricted"
+                },
+                "profile_note": "地方史料摘录且仍在 review；低龄听众需教师改写和引导"
+              }
+            }
+          ],
+          "feedback": [
+            {
+              "session_id": "S2",
+              "segment_id": "G05",
+              "topic_id": "T4",
+              "understood_count": 4,
+              "respondent_count": 10,
+              "understanding_rate": 0.4,
+              "wilson_95": [
+                0.1682,
+                0.6873
+              ],
+              "low_understanding": true,
+              "valid_counts": true,
+              "evidential_role": "comprehension_only_not_historical_reliability",
+              "session_date": null,
+              "course_version_from_session": null
+            }
+          ],
+          "feedback_summary": {
+            "response_rows": 1,
+            "respondent_count": 10,
+            "understood_count": 4,
+            "aggregate_understanding_rate": 0.4,
+            "low_understanding_rows": [
+              "S2:G05:T4"
+            ],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "historical_feedback": [],
+          "historical_feedback_summary": {
+            "response_rows": 0,
+            "respondent_count": 0,
+            "understood_count": 0,
+            "aggregate_understanding_rate": null,
+            "low_understanding_rows": [],
+            "warning": "反馈热度和理解率不能证明历史解释或材料来源可靠。"
+          },
+          "findings": [
+            "直接来源仍为 review/待核状态，证据只能作暂定支持。",
+            "S2/G05 理解率偏低（40%），但这不是历史可靠性判断。"
+          ]
+        }
+      ],
+      "sequence_findings": [],
+      "curriculum_arc": {
+        "requirements": [
+          {
+            "requirement_id": "pre_qin_cowrie",
+            "label": "先秦贝币与交换起源",
+            "era": "先秦",
+            "required": true,
+            "status": "gap",
+            "explicit_topics": [],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "在 T1 之外细化贝币主题，补充贝壳形制、交换与信用萌芽的来源边界。"
+          },
+          {
+            "requirement_id": "pre_qin_knife_spade",
+            "label": "先秦刀布币体系",
+            "era": "先秦",
+            "required": true,
+            "status": "explicit_broad_topic_verify_specifics",
+            "explicit_topics": [
+              {
+                "topic_id": "T1",
+                "coverage_class": "explanation_depth_gap"
+              }
+            ],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "把刀币、布币和尖足布标为可区分主题；T1 的泛称“货币形制”不足以判断是否覆盖完整。"
+          },
+          {
+            "requirement_id": "jinyang_spade_local_economy",
+            "label": "晋阳尖足布与晋地地方经济",
+            "era": "先秦/晋地",
+            "required": true,
+            "status": "gap",
+            "explicit_topics": [],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "除器物外形和出土地外，需要解释尖足布、区域贸易、城邑与地方经济的关系，并补足直接来源。"
+          },
+          {
+            "requirement_id": "qin_han_unification",
+            "label": "秦汉钱币与币制统一",
+            "era": "秦汉",
+            "required": true,
+            "status": "gap",
+            "explicit_topics": [],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "保留制度统一与国家信用如何影响流通的解释链。"
+          },
+          {
+            "requirement_id": "tang_tongbao",
+            "label": "唐代通宝与年号/铢两体系转型",
+            "era": "唐",
+            "required": true,
+            "status": "gap",
+            "explicit_topics": [],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "新增唐代通宝主题、段落和馆藏/图像引用；说明“通宝”命名与货币制度变化，避免只讲外形。"
+          },
+          {
+            "requirement_id": "song_jiaozi",
+            "label": "宋代交子与纸币信用",
+            "era": "宋",
+            "required": true,
+            "status": "gap",
+            "explicit_topics": [],
+            "keyword_hits": [],
+            "co_located_keyword_hits": [],
+            "metadata_keyword_hits": [],
+            "advice": "新增宋代交子主题，重点解释票据、准备金、信用扩张与风险，而非仅介绍纸币外观。"
+          },
+          {
+            "requirement_id": "piaohao_credit",
+            "label": "晋商票号与汇兑信用",
+            "era": "明清",
+            "required": true,
+            "status": "explicitly_scheduled_with_text_signal",
+            "explicit_topics": [
+              {
+                "topic_id": "T4",
+                "coverage_class": "evidence_limited"
+              }
+            ],
+            "keyword_hits": [
+              {
+                "segment_id": "G05",
+                "matched_keywords": [
+                  "票号",
+                  "晋商"
+                ]
+              }
+            ],
+            "co_located_keyword_hits": [
+              {
+                "segment_id": "G05",
+                "matched_keywords": [
+                  "票号",
+                  "晋商"
+                ]
+              }
+            ],
+            "metadata_keyword_hits": [
+              "票号"
+            ],
+            "advice": "把票号信用、异地汇兑和账簿/密押机制连到清代地方与全国贸易。"
+          },
+          {
+            "requirement_id": "money_credit_local_economy_link",
+            "label": "货币—信用—地方经济联系",
+            "era": "跨时期",
+            "required": true,
+            "status": "explicitly_scheduled_with_text_signal",
+            "explicit_topics": [
+              {
+                "topic_id": "T4",
+                "coverage_class": "evidence_limited"
+              }
+            ],
+            "keyword_hits": [
+              {
+                "segment_id": "G04",
+                "matched_keywords": [
+                  "信用"
+                ]
+              },
+              {
+                "segment_id": "G05",
+                "matched_keywords": [
+                  "信用"
+                ]
+              }
+            ],
+            "co_located_keyword_hits": [
+              {
+                "segment_id": "G05",
+                "matched_keywords": [
+                  "信用"
+                ]
+              }
+            ],
+            "metadata_keyword_hits": [
+              "信用"
+            ],
+            "advice": "使用 explains/analyzes/connects 类关系明确因果链；仅有 introduces/example/context 会被判为深度缺口。"
+          }
+        ],
+        "gap_requirement_ids": [
+          "pre_qin_cowrie",
+          "jinyang_spade_local_economy",
+          "qin_han_unification",
+          "tang_tongbao",
+          "song_jiaozi"
+        ],
+        "tagging_requirement_ids": []
+      },
+      "lineage": [],
+      "source_collection": {
+        "as_of": "2026-11-24",
+        "audience_age": 12,
+        "sources": [
+          {
+            "source_id": "A1",
+            "object_token": "COIN01",
+            "source_note": "合成馆藏目录摘要",
+            "review_status_raw": "approved",
+            "status_class": "high",
+            "trust_tier": "high",
+            "blocked": false,
+            "availability_state": "available",
+            "available_on_date": true,
+            "currently_usable": true,
+            "age": {
+              "minimum_age": 10,
+              "audience_age": 12,
+              "age_fit": true,
+              "status": "fit"
+            },
+            "profile_note": "合成目录摘要；正式使用前以馆藏完整著录为准",
+            "reference_count_in_scope": 1,
+            "used_in_scope": true
+          },
+          {
+            "source_id": "A2",
+            "object_token": "COIN02",
+            "source_note": "地方史料摘录",
+            "review_status_raw": "review",
+            "status_class": "provisional",
+            "trust_tier": "provisional",
+            "blocked": false,
+            "availability_state": "available",
+            "available_on_date": true,
+            "currently_usable": true,
+            "age": {
+              "minimum_age": 14,
+              "audience_age": 12,
+              "age_fit": false,
+              "status": "restricted"
+            },
+            "profile_note": "地方史料摘录且仍在 review；低龄听众需教师改写和引导",
+            "reference_count_in_scope": 1,
+            "used_in_scope": true
+          },
+          {
+            "source_id": "A3",
+            "object_token": "IMG03",
+            "source_note": "授权图像记录",
+            "review_status_raw": "approved",
+            "status_class": "high",
+            "trust_tier": "high",
+            "blocked": false,
+            "availability_state": "available",
+            "available_on_date": true,
+            "currently_usable": true,
+            "age": {
+              "minimum_age": 6,
+              "audience_age": 12,
+              "age_fit": true,
+              "status": "fit"
+            },
+            "profile_note": "授权图像；使用时遵守 object_token 对应的授权范围",
+            "reference_count_in_scope": 0,
+            "used_in_scope": false
+          }
+        ],
+        "unused_available_source_ids": [
+          "A3"
+        ],
+        "unmapped_claims": [],
+        "age_unknown_source_ids": [],
+        "collection_actions": [
+          "确认 blocked/availability_window_closed 材料已从当前课程撤下。",
+          "精确复核 unmapped_claims：近似主题不能自动视为来源已支持。",
+          "为 age_unknown_source_ids 补充适合年龄；未知不等于全年龄。"
+        ]
+      },
+      "orphan_feedback": [],
+      "out_of_version_feedback": [
+        {
+          "session_id": "S1",
+          "segment_id": "G01",
+          "topic_id": "T1",
+          "understood_count": 7,
+          "respondent_count": 10,
+          "understanding_rate": 0.7,
+          "wilson_95": [
+            0.3968,
+            0.8922
+          ],
+          "low_understanding": false,
+          "valid_counts": true,
+          "evidential_role": "comprehension_only_not_historical_reliability",
+          "session_date": null,
+          "course_version_from_session": null,
+          "attribution_policy": "retain_original_version_segment_id"
+        },
+        {
+          "session_id": "S1",
+          "segment_id": "G02",
+          "topic_id": "T2",
+          "understood_count": 5,
+          "respondent_count": 9,
+          "understanding_rate": 0.5556,
+          "wilson_95": [
+            0.2666,
+            0.8112
+          ],
+          "low_understanding": true,
+          "valid_counts": true,
+          "evidential_role": "comprehension_only_not_historical_reliability",
+          "session_date": null,
+          "course_version_from_session": null,
+          "attribution_policy": "retain_original_version_segment_id"
+        },
+        {
+          "session_id": "S1",
+          "segment_id": "G03",
+          "topic_id": "T3",
+          "understood_count": 6,
+          "respondent_count": 8,
+          "understanding_rate": 0.75,
+          "wilson_95": [
+            0.4093,
+            0.9285
+          ],
+          "low_understanding": false,
+          "valid_counts": true,
+          "evidential_role": "comprehension_only_not_historical_reliability",
+          "session_date": null,
+          "course_version_from_session": null,
+          "attribution_policy": "retain_original_version_segment_id"
+        }
+      ],
+      "method_notes": [
+        "覆盖由必需主题、讲述关系深度和可用独立证据决定，不使用段落数量作为充分性标准。",
+        "反馈只表示理解度/参与度，不证明来源或历史解释可靠。",
+        "旧反馈按稳定 segment_id 保留；拆段/合段后不自动改挂到新段落。",
+        "claim_topic 必须精确对应 topics.label 或 topic_id 才计为直接证据；近似说法进入来源范围复核。"
+      ]
+    }
+  },
+  "issues": [
+    {
+      "level": "warning",
+      "code": "unmapped_claim_topic",
+      "message": "claim_topic has no exact topic_id/label and cannot be counted as direct topic evidence",
+      "context": {
+        "reference_id": "L3",
+        "claim_topic": "地方货币"
+      }
+    }
+  ],
+  "issue_counts": {
+    "warning": 1
+  },
+  "repository_snapshot": {
+    "format": "coverage-tool-repository-snapshot",
+    "schema_version": 1,
+    "data_dir": "data",
+    "file_hashes": {
+      "segments.csv": "f72d71969cf4bd264bbab1be072230dbf16231add78378ed80641bc92c3a60e7",
+      "topics.csv": "e92107a3b5fc1d756aac7df8245aa7b7eceaf1507f1b93ee4b895877e93d2868",
+      "segment_topics.csv": "2f27c581ccb654bd903df482f690c6972199d5c440653cec6467ea7c71e071ae",
+      "references.csv": "7603dde6d00a63a7612a42e69da0ab5af9ba2b0528ae4761834ce4466ca1be3a",
+      "sources.csv": "fac12909bff2f8c7d69cc51770f23597905c2f6f48225b65a2206d662acfa93d",
+      "feedback.csv": "6f338128b0a86d87a09ca674c48af40b40c0afc89cadc3fb9b1b325ab4b4b925",
+      "source_profiles.csv": "595fd16b02dcef56b19fa8682b7ca86fb3786296b46df05ac6140158f5570e18"
+    },
+    "files": {
+      "segments.csv": {
+        "table_name": "segments",
+        "sha256": "f72d71969cf4bd264bbab1be072230dbf16231add78378ed80641bc92c3a60e7",
+        "columns": [
+          "segment_id",
+          "course_version",
+          "position",
+          "duration_min",
+          "title"
+        ],
+        "rows": [
+          {
+            "segment_id": "G01",
+            "course_version": "C1",
+            "position": "1",
+            "duration_min": "8",
+            "title": "先秦货币与交换"
+          },
+          {
+            "segment_id": "G02",
+            "course_version": "C1",
+            "position": "2",
+            "duration_min": "7",
+            "title": "秦汉币制"
+          },
+          {
+            "segment_id": "G03",
+            "course_version": "C1",
+            "position": "3",
+            "duration_min": "10",
+            "title": "晋阳尖足布"
+          },
+          {
+            "segment_id": "G04",
+            "course_version": "C2",
+            "position": "1",
+            "duration_min": "6",
+            "title": "货币与信用"
+          },
+          {
+            "segment_id": "G05",
+            "course_version": "C2",
+            "position": "2",
+            "duration_min": "9",
+            "title": "晋商票号"
+          }
+        ]
+      },
+      "topics.csv": {
+        "table_name": "topics",
+        "sha256": "e92107a3b5fc1d756aac7df8245aa7b7eceaf1507f1b93ee4b895877e93d2868",
+        "columns": [
+          "topic_id",
+          "label",
+          "period",
+          "required"
+        ],
+        "rows": [
+          {
+            "topic_id": "T1",
+            "label": "货币形制",
+            "period": "先秦",
+            "required": "yes"
+          },
+          {
+            "topic_id": "T2",
+            "label": "币制统一",
+            "period": "秦汉",
+            "required": "yes"
+          },
+          {
+            "topic_id": "T3",
+            "label": "地方金融",
+            "period": "晋地",
+            "required": "yes"
+          },
+          {
+            "topic_id": "T4",
+            "label": "票号信用",
+            "period": "明清",
+            "required": "yes"
+          }
+        ]
+      },
+      "segment_topics.csv": {
+        "table_name": "segment_topics",
+        "sha256": "2f27c581ccb654bd903df482f690c6972199d5c440653cec6467ea7c71e071ae",
+        "columns": [
+          "segment_id",
+          "topic_id",
+          "relation",
+          "valid_from",
+          "valid_to"
+        ],
+        "rows": [
+          {
+            "segment_id": "G01",
+            "topic_id": "T1",
+            "relation": "introduces",
+            "valid_from": "2026-08-01",
+            "valid_to": ""
+          },
+          {
+            "segment_id": "G02",
+            "topic_id": "T2",
+            "relation": "explains",
+            "valid_from": "2026-08-01",
+            "valid_to": ""
+          },
+          {
+            "segment_id": "G03",
+            "topic_id": "T3",
+            "relation": "example",
+            "valid_from": "2026-08-01",
+            "valid_to": "2026-10-01"
+          },
+          {
+            "segment_id": "G04",
+            "topic_id": "T1",
+            "relation": "context",
+            "valid_from": "2026-10-01",
+            "valid_to": ""
+          },
+          {
+            "segment_id": "G05",
+            "topic_id": "T4",
+            "relation": "explains",
+            "valid_from": "2026-10-01",
+            "valid_to": ""
+          }
+        ]
+      },
+      "references.csv": {
+        "table_name": "references",
+        "sha256": "7603dde6d00a63a7612a42e69da0ab5af9ba2b0528ae4761834ce4466ca1be3a",
+        "columns": [
+          "reference_id",
+          "segment_id",
+          "source_id",
+          "claim_topic",
+          "course_version"
+        ],
+        "rows": [
+          {
+            "reference_id": "L1",
+            "segment_id": "G01",
+            "source_id": "A1",
+            "claim_topic": "货币形制",
+            "course_version": "C1"
+          },
+          {
+            "reference_id": "L2",
+            "segment_id": "G02",
+            "source_id": "A1",
+            "claim_topic": "币制统一",
+            "course_version": "C1"
+          },
+          {
+            "reference_id": "L3",
+            "segment_id": "G03",
+            "source_id": "A2",
+            "claim_topic": "地方货币",
+            "course_version": "C1"
+          },
+          {
+            "reference_id": "L4",
+            "segment_id": "G04",
+            "source_id": "A1",
+            "claim_topic": "货币形制",
+            "course_version": "C2"
+          },
+          {
+            "reference_id": "L5",
+            "segment_id": "G05",
+            "source_id": "A2",
+            "claim_topic": "票号信用",
+            "course_version": "C2"
+          }
+        ]
+      },
+      "sources.csv": {
+        "table_name": "sources",
+        "sha256": "fac12909bff2f8c7d69cc51770f23597905c2f6f48225b65a2206d662acfa93d",
+        "columns": [
+          "source_id",
+          "object_token",
+          "source_note",
+          "review_status",
+          "available_from",
+          "available_to"
+        ],
+        "rows": [
+          {
+            "source_id": "A1",
+            "object_token": "COIN01",
+            "source_note": "合成馆藏目录摘要",
+            "review_status": "approved",
+            "available_from": "2026-08-01",
+            "available_to": ""
+          },
+          {
+            "source_id": "A2",
+            "object_token": "COIN02",
+            "source_note": "地方史料摘录",
+            "review_status": "review",
+            "available_from": "2026-08-01",
+            "available_to": ""
+          },
+          {
+            "source_id": "A3",
+            "object_token": "IMG03",
+            "source_note": "授权图像记录",
+            "review_status": "approved",
+            "available_from": "2026-08-01",
+            "available_to": "2026-12-31"
+          }
+        ]
+      },
+      "feedback.csv": {
+        "table_name": "feedback",
+        "sha256": "6f338128b0a86d87a09ca674c48af40b40c0afc89cadc3fb9b1b325ab4b4b925",
+        "columns": [
+          "session_id",
+          "segment_id",
+          "topic_id",
+          "understood_count",
+          "respondent_count"
+        ],
+        "rows": [
+          {
+            "session_id": "S1",
+            "segment_id": "G01",
+            "topic_id": "T1",
+            "understood_count": "7",
+            "respondent_count": "10"
+          },
+          {
+            "session_id": "S1",
+            "segment_id": "G02",
+            "topic_id": "T2",
+            "understood_count": "5",
+            "respondent_count": "9"
+          },
+          {
+            "session_id": "S1",
+            "segment_id": "G03",
+            "topic_id": "T3",
+            "understood_count": "6",
+            "respondent_count": "8"
+          },
+          {
+            "session_id": "S2",
+            "segment_id": "G04",
+            "topic_id": "T1",
+            "understood_count": "8",
+            "respondent_count": "11"
+          },
+          {
+            "session_id": "S2",
+            "segment_id": "G05",
+            "topic_id": "T4",
+            "understood_count": "4",
+            "respondent_count": "10"
+          }
+        ]
+      },
+      "source_profiles.csv": {
+        "table_name": "source_profiles",
+        "sha256": "595fd16b02dcef56b19fa8682b7ca86fb3786296b46df05ac6140158f5570e18",
+        "columns": [
+          "source_id",
+          "trust_tier",
+          "min_age",
+          "handling_note"
+        ],
+        "rows": [
+          {
+            "source_id": "A1",
+            "trust_tier": "high",
+            "min_age": "10",
+            "handling_note": "合成目录摘要；正式使用前以馆藏完整著录为准"
+          },
+          {
+            "source_id": "A2",
+            "trust_tier": "provisional",
+            "min_age": "14",
+            "handling_note": "地方史料摘录且仍在 review；低龄听众需教师改写和引导"
+          },
+          {
+            "source_id": "A3",
+            "trust_tier": "high",
+            "min_age": "6",
+            "handling_note": "授权图像；使用时遵守 object_token 对应的授权范围"
+          }
+        ]
+      }
+    }
+  },
+  "generated_at": "2026-11-24"
+}

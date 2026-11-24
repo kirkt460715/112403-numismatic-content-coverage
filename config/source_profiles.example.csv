@@ -1,0 +1,4 @@
+source_id,trust_tier,min_age,handling_note
+A1,high,10,合成目录摘要；正式使用前仍以馆藏完整著录为准
+A2,provisional,14,地方史料摘录且仍在 review；低龄听众需教师改写和引导
+A3,high,6,授权图像；使用时遵守 object_token 对应的授权范围

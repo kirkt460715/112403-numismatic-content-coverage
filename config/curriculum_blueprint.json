@@ -1,0 +1,113 @@
+{
+  "chronology": [
+    {
+      "era": "先秦",
+      "order": 1,
+      "keywords": ["先秦", "贝币", "贝", "刀币", "刀布", "布币", "尖足布", "晋阳", "交换"]
+    },
+    {
+      "era": "秦汉",
+      "order": 2,
+      "keywords": ["秦汉", "秦", "汉", "半两", "五铢", "币制统一"]
+    },
+    {
+      "era": "魏晋南北朝隋",
+      "order": 3,
+      "keywords": ["魏晋", "南北朝", "隋", "五铢"]
+    },
+    {
+      "era": "唐",
+      "order": 4,
+      "keywords": ["唐", "开元", "通宝", "元宝"]
+    },
+    {
+      "era": "宋",
+      "order": 5,
+      "keywords": ["宋", "交子", "会子", "纸币"]
+    },
+    {
+      "era": "元明清",
+      "order": 6,
+      "keywords": ["元", "明", "清", "白银", "票号", "晋商"]
+    },
+    {
+      "era": "近现代",
+      "order": 7,
+      "keywords": ["近代", "现代", "银行", "法币", "人民币"]
+    }
+  ],
+  "arc_requirements": [
+    {
+      "id": "pre_qin_cowrie",
+      "label": "先秦贝币与交换起源",
+      "era": "先秦",
+      "topic_ids": [],
+      "any_keywords": ["贝币", "海贝", "货贝"],
+      "required": true,
+      "advice": "在 T1 之外细化贝币主题，补充贝壳形制、交换与信用萌芽的来源边界。"
+    },
+    {
+      "id": "pre_qin_knife_spade",
+      "label": "先秦刀布币体系",
+      "era": "先秦",
+      "topic_ids": ["T1", "T3"],
+      "any_keywords": ["刀币", "刀布", "布币", "尖足布"],
+      "required": true,
+      "advice": "把刀币、布币和尖足布标为可区分主题；T1 的泛称“货币形制”不足以判断是否覆盖完整。"
+    },
+    {
+      "id": "jinyang_spade_local_economy",
+      "label": "晋阳尖足布与晋地地方经济",
+      "era": "先秦/晋地",
+      "topic_ids": ["T3"],
+      "any_keywords": ["晋阳", "尖足布"],
+      "required": true,
+      "advice": "除器物外形和出土地外，需要解释尖足布、区域贸易、城邑与地方经济的关系，并补足直接来源。"
+    },
+    {
+      "id": "qin_han_unification",
+      "label": "秦汉钱币与币制统一",
+      "era": "秦汉",
+      "topic_ids": ["T2"],
+      "any_keywords": ["秦汉", "半两", "五铢", "币制统一"],
+      "required": true,
+      "advice": "保留制度统一与国家信用如何影响流通的解释链。"
+    },
+    {
+      "id": "tang_tongbao",
+      "label": "唐代通宝与年号/铢两体系转型",
+      "era": "唐",
+      "topic_ids": [],
+      "any_keywords": ["通宝", "开元通宝"],
+      "required": true,
+      "advice": "新增唐代通宝主题、段落和馆藏/图像引用；说明“通宝”命名与货币制度变化，避免只讲外形。"
+    },
+    {
+      "id": "song_jiaozi",
+      "label": "宋代交子与纸币信用",
+      "era": "宋",
+      "topic_ids": [],
+      "any_keywords": ["交子", "会子"],
+      "required": true,
+      "advice": "新增宋代交子主题，重点解释票据、准备金、信用扩张与风险，而非仅介绍纸币外观。"
+    },
+    {
+      "id": "piaohao_credit",
+      "label": "晋商票号与汇兑信用",
+      "era": "明清",
+      "topic_ids": ["T4"],
+      "any_keywords": ["票号", "晋商", "汇兑"],
+      "required": true,
+      "advice": "把票号信用、异地汇兑和账簿/密押机制连到清代地方与全国贸易。"
+    },
+    {
+      "id": "money_credit_local_economy_link",
+      "label": "货币—信用—地方经济联系",
+      "era": "跨时期",
+      "topic_ids": ["T3", "T4"],
+      "any_keywords": ["信用", "地方经济", "汇兑", "贸易"],
+      "required": true,
+      "advice": "使用 explains/analyzes/connects 类关系明确因果链；仅有 introduces/example/context 会被判为深度缺口。"
+    }
+  ]
+}

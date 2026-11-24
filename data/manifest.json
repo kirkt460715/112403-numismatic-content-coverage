@@ -30,7 +30,13 @@
         "valid_from",
         "valid_to"
       ],
-      "key": "segment_id"
+      "unique_keys": [
+        [
+          "segment_id",
+          "topic_id",
+          "valid_from"
+        ]
+      ]
     },
     {
       "file": "references.csv",
@@ -63,7 +69,21 @@
         "topic_id",
         "understood_count",
         "respondent_count"
+      ],
+      "unique_keys": [
+        [
+          "session_id",
+          "segment_id",
+          "topic_id"
+        ]
       ]
     }
+  ],
+  "optional_tables": [
+    "sessions.csv",
+    "segment_lineage.csv",
+    "source_profiles.csv",
+    "adopted_recommendations.csv",
+    "recommendations.csv"
   ]
 }
