@@ -1,0 +1,6 @@
+session_id,segment_id,topic_id,understood_count,respondent_count
+S1,G01,T1,7,10
+S1,G02,T2,5,9
+S1,G03,T3,6,8
+S2,G04,T1,8,11
+S2,G05,T4,4,10

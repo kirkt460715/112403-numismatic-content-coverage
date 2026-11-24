@@ -1,0 +1,5 @@
+topic_id,label,period,required
+T1,货币形制,先秦,yes
+T2,币制统一,秦汉,yes
+T3,地方金融,晋地,yes
+T4,票号信用,明清,yes

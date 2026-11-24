@@ -1,0 +1,6 @@
+segment_id,topic_id,relation,valid_from,valid_to
+G01,T1,introduces,2026-08-01,
+G02,T2,explains,2026-08-01,
+G03,T3,example,2026-08-01,2026-10-01
+G04,T1,context,2026-10-01,
+G05,T4,explains,2026-10-01,

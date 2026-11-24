@@ -1,0 +1,58 @@
+{
+  "tables": [
+    {
+      "file": "segments.csv",
+      "columns": [
+        "segment_id",
+        "course_version",
+        "position",
+        "duration_min",
+        "title"
+      ],
+      "key": "segment_id"
+    },
+    {
+      "file": "topics.csv",
+      "columns": [
+        "topic_id",
+        "label",
+        "period",
+        "required"
+      ],
+      "key": "topic_id"
+    },
+    {
+      "file": "segment_topics.csv",
+      "columns": [
+        "segment_id",
+        "topic_id",
+        "relation",
+        "valid_from",
+        "valid_to"
+      ],
+      "key": "segment_id"
+    },
+    {
+      "file": "sources.csv",
+      "columns": [
+        "source_id",
+        "object_token",
+        "source_note",
+        "review_status",
+        "available_from",
+        "available_to"
+      ],
+      "key": "source_id"
+    },
+    {
+      "file": "feedback.csv",
+      "columns": [
+        "session_id",
+        "segment_id",
+        "topic_id",
+        "understood_count",
+        "respondent_count"
+      ]
+    }
+  ]
+}

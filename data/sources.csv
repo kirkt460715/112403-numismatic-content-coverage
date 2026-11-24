@@ -1,0 +1,4 @@
+source_id,object_token,source_note,review_status,available_from,available_to
+A1,COIN01,合成馆藏目录摘要,approved,2026-08-01,
+A2,COIN02,地方史料摘录,review,2026-08-01,
+A3,IMG03,授权图像记录,approved,2026-08-01,2026-12-31
