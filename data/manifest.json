@@ -33,6 +33,17 @@
       "key": "segment_id"
     },
     {
+      "file": "references.csv",
+      "columns": [
+        "reference_id",
+        "segment_id",
+        "source_id",
+        "claim_topic",
+        "course_version"
+      ],
+      "key": "reference_id"
+    },
+    {
       "file": "sources.csv",
       "columns": [
         "source_id",

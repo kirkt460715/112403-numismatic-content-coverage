@@ -1,0 +1,6 @@
+reference_id,segment_id,source_id,claim_topic,course_version
+L1,G01,A1,货币形制,C1
+L2,G02,A1,币制统一,C1
+L3,G03,A2,地方货币,C1
+L4,G04,A1,货币形制,C2
+L5,G05,A2,票号信用,C2
